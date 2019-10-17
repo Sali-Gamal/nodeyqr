@@ -19,7 +19,7 @@
         <label>E-mail</label>
         <input type="email" name="email" >
         <label>URL</label>
-        <input type="url" name="url" required pattern="^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$">
+        <input type="url" name="website">
 
         </br>
         <label>Select your favourite superheroe</label>
@@ -43,11 +43,13 @@
 
         </fieldset>
         </form>
-        <form action=" https://www.google.ca" method="GET" enctype="application/x-www-form-urlencoded">
+        <form action=" https://www.google.ca/search" method="GET" enctype="application/x-www-form-urlencoded">
+            <input type="text" name="q">
+            
             <fieldset>
                 <label>search</label>
                 <input type="search" name="search" />
-                    <input type="submit" value="Search"/>
+                    <input type="submit">submit</button>
             </fieldset>
     </body>
 </html>

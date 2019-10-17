@@ -13,12 +13,13 @@
     <hr>
     <form>
         <label>User Name</label>
-        <input type="text"name="name" placeholder="name">
+        <input type="text" name="name" placeholder="name">
         <br>
-        <select name="options">
-            <option value="superheroes">superheroes</option>
-            
-             <option value="deadpool">Deadpool</option>
+        <label> Favorite Hero</label>
+        <select name="Hero">
+
+<option value="superheroes">superheroes</option>
+ <option value="deadpool">Deadpool</option>
  <option value="batman_vs_superman">Batman v Superman</option>
  <option value="civil_war">Captain America: Civil War</option>
  <option value="doctor_strange">Doctor Strange</option>
@@ -28,18 +29,18 @@
  <option value="justice_league">Justice League</option>
  <option value="logan">Logan</option>
  <option value="homecoming">Spider-Man: Homecoming</option>
- <option value="wonder_woman">Wonder Woman</option>
+ <option value="wonder_woman" selected>Wonder Woman</option>
  <option value="thor_ragnarok">Thor: Ragnarok</option>
  <option value="black_panther">Black Panther</option>
         </select>
         <br>
-        <label>user information</label>
-     <textarea name="about"cols="50"rows="5" placeholder="Please let us know about yourself"></textarea>
+        <label for="bio">Bio</label>
+     <textarea name="BIO"cols="50"rows="5" placeholder="Please let us know about yourself"></textarea>
         <br>
-        <label>img</label>
+        <label for="avatar">Avatar</label>
      <input type="file" name="avatar img">
-     <button value="create" name="Clear Form">Clear Form</button>
-     <button value="create" name="Add new user">Add new user</button>
+     <button type="reset" name="Clear Form">Clear Form</button>
+     <button type="submit" name="Add new user">Add new user</button>
     </form>
     
 </body>
