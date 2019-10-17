@@ -12,15 +12,18 @@
         <legend>User Form</legend>
         <label>User name</label>
         <input type="text" name="username"size="30"maxlength="12"placeholder="username">
+        <br>
         <label>Password</label>
         <input name="password"size="30"maxlength="8"placeholder="password">
+        <br>
         <label>Birth date</label>
         <input type="date" name="Birth date">
+        <br>
         <label>E-mail</label>
         <input type="email" name="email" >
+        <br>
         <label>URL</label>
         <input type="url" name="website">
-
         </br>
         <label>Select your favourite superheroe</label>
         <input type="radio"name="superheroes" value="Superman">Superman
@@ -36,20 +39,24 @@
         <input type="checkbox"name="videogames" value="Residen Evil ">Residen Evil 
         <input type="checkbox"name="videogames" value="Uncharted">Uncharted
         <input type="hidden" name="userid"value="2300"/>
-        </br>
-        
-        
-        <input type="submit" name="submit" value="Submit" />
-
-        </fieldset>
-        </form>
-        <form action=" https://www.google.ca/search" method="GET" enctype="application/x-www-form-urlencoded">
-            <input type="text" name="q">
-            
-            <fieldset>
-                <label>search</label>
-                <input type="search" name="search" />
-                    <input type="submit">submit</button>
+    </br>
+         <label for date>Birth Date</label>
+            <input type="date" name="Birth date">
+            <br>
+            <label for email>email</label>
+            <input type ="email" name="email">
+            <br>
+            <label for url>URL</label>
+            <input type="url" name="website">
+            <br>
+            <button type="submit">submit</button>
             </fieldset>
+        </form>
+
+        <form action=" https://www.google.ca/search" method="GET" enctype="application/x-www-form-urlencoded">
+            <label for="q">search</label>
+                <input type="search" name="q" />
+                    <button type="submit">submit</button>
+            
     </body>
 </html>
